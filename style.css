@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: NorseBold;
+    src: url("./Norse-Bold.otf") format("opentype");
+}
+
+main{
+    display:flex;
+}
+
+label{
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right{
+    background-color: azure;
+    width: 100%;
+    
+}
+.form{
+    padding: 0 3rem;
+    box-shadow: 10px 5px 5px lightgray;
+    background-color: white;
+}
+
+.form p{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 1rem 0;
+}
+
+.text{
+    padding: 5rem 3rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button{
+    padding: 2rem 3rem;
+}
+
+.left{
+    position:relative;
+}
+.left img{
+    height: 100vh;
+    width: 50vw;
+}
+
+.odin{
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top: 20%;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.odin p{
+    font-family: NorseBold;
+    font-size:100px;
+}
+
+.odin img{
+    height: 20%;
+    width: 20%;
+}
+
+.inputPair{
+    display:flex;
+    flex-direction: column;
+}
+
+.formRow{
+    display:flex;
+    gap: 10rem;
+    padding-bottom: 2rem;
+}
+
+input{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.button button{
+    padding: 1rem 4rem;
+    font-size: 20px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button p{
+    margin-top: 2rem;
+    font-size: 20px;
+}
